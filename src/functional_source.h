@@ -180,7 +180,7 @@ class FunctionalSource : public cyclus::Facility {
 
   void SetPackage();
 
-  virtual void CalculateThroughput();
+  void CalculateThroughput();
 };
 
 }  // namespace cycamore
